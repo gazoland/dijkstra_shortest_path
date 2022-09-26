@@ -42,7 +42,7 @@ We choose the starting vertex which represents where our route will start from.
 
 The path distance for that node will be 0 and we add it to the Priority Queue.
 
-Until the PQ is empty OR the first node is the destination we are looking for: get the first node of the queue, iterate through every edge of that node, calculate their distances and add them to the PQ if they were not previously visited.
+Until the PQ is empty OR the first node in the PQ is the destination we are looking for: get the first node of the queue, iterate through every edge of that node, calculate their distances and add them to the PQ if they were not previously visited.
 
 We add every visited node to the stack.
 
